@@ -2,9 +2,6 @@ import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Upload, Sparkles, Palette, ArrowRight, Camera, Shirt, MessageCircle } from "lucide-react";
-import heroImage from "@assets/generated_images/Diverse_beauty_hero_image_c838edda.png";
-import analysisImage from "@assets/generated_images/AI_analysis_visualization_abstract_93b680e8.png";
-import resultsImage from "@assets/generated_images/Before_after_styling_results_c4bd7ca0.png";
 
 export default function Home() {
   return (
@@ -46,7 +43,7 @@ export default function Home() {
             <div className="relative">
               <div className="relative rounded-3xl overflow-hidden shadow-2xl">
                 <img 
-                  src={heroImage} 
+                  
                   alt="Diverse group showcasing AI beauty analysis" 
                   className="w-full h-auto"
                   data-testid="img-hero"
@@ -138,7 +135,7 @@ export default function Home() {
             <Card className="hover-elevate transition-all">
               <CardContent className="p-6 space-y-4">
                 <div className="aspect-video rounded-xl overflow-hidden bg-muted">
-                  <img src={analysisImage} alt="AI Analysis" className="w-full h-full object-cover" />
+                 
                 </div>
                 <Camera className="h-8 w-8 text-primary" />
                 <h3 className="font-semibold text-xl">Face Analysis</h3>
@@ -168,7 +165,7 @@ export default function Home() {
             <Card className="hover-elevate transition-all">
               <CardContent className="p-6 space-y-4">
                 <div className="aspect-video rounded-xl overflow-hidden bg-muted">
-                  <img src={resultsImage} alt="Style Results" className="w-full h-full object-cover" />
+                  
                 </div>
                 <Shirt className="h-8 w-8 text-primary" />
                 <h3 className="font-semibold text-xl">Outfit Suggestions</h3>
